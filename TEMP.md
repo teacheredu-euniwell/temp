@@ -26,7 +26,7 @@ attribute: TEST
 
 translateWithGoogle: true
 
-
+script: https://euniwell.de.cool/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js
 
 -->
 
@@ -48,3 +48,5 @@ H5P
 Drag Drop
 
 [text](media/ch0/bronfenbrenner-dragdrop.html)
+
+<iframe src=[text](media/ch0/bronfenbrenner-dragdrop.html) width="958" height="687" frameborder="0" allowfullscreen="allowfullscreen" title="Fends Social Systems Interaction (Drag &amp; Drop)"></iframe><script src="https://euniwell.de.cool/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
