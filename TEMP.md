@@ -70,13 +70,6 @@ Neuer Eintrag
 H5P
 ===
 
-iframe
----
-
-[text](media/ch0/bronfenbrenner-dragdrop.html)
-
-<iframe src=https://github.com/teacheredu-euniwell/temp/raw/refs/heads/main/media/ch0/bronfenbrenner-dragdrop.html width="958" height="687" frameborder="0" allowfullscreen="allowfullscreen" title="Fends Social Systems Interaction (Drag &amp; Drop)"></iframe><script src="https://euniwell.de.cool/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
-
 H5P Embed
 ---
 
