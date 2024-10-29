@@ -7,9 +7,9 @@ email:    teacheredu.euniwell@uni-konstanz.de
 
 comment:  TEST
           
-logo:     ![CC-BY-SA](media/CC_BY-SA_icon.svg)
+logo:     https://raw.githubusercontent.com/teacheredu-euniwell/temp/6ab0c53dcc55e15144f0b5816727648a088727b8/media/ch0/CC_BY-SA_icon.svg
 
-icon:     ![CC-BY-SA](media/CC_BY-SA_icon.svg)
+icon:     https://raw.githubusercontent.com/teacheredu-euniwell/temp/6ab0c53dcc55e15144f0b5816727648a088727b8/media/ch0/CC_BY-SA_icon.svg
 
 language: en
 
@@ -28,12 +28,20 @@ translateWithGoogle: true
 
 
 
-
 -->
 
 
 # TEST
 
-![alt text](media/CC_BY-SA_icon.svg)
+Subsubfolder ![alt text](media/ch0/CC-BY-SA-icon.svg)
+
+Subfolder 
+
+Mainfolder ![alt text](CC-BY-SA-icon.svg)
+
 
 Neuer Eintrag
+
+# H5P
+
+Drag Drop
