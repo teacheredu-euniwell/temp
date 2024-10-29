@@ -53,17 +53,70 @@ fetch('@1')
 </script>
 @end
 
+@style
+.admonition {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+    position: relative;
+    line-height: 1.4;
+}
+.admonition::before {
+    margin-left: -5rem;
+}
+.admonition.note {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-left: 5px solid #31708f;
+}
+.admonition.warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-left: 5px solid #8a6d3b;
+}
+.admonition.danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-left: 5px solid #a94442;
+}
+.admonition-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+@end
+
+
+@admonition: @admonition_(@uid,@0,@1)
+
+@admonition_: <script modify="false">
+  setTimeout(() => {
+    const parent = document.getElementById('admon-@0').parentElement.parentElement.parentElement.parentElement;
+
+    parent.classList.add("admonition");
+    parent.classList.add("@1");
+
+  }, 100);
+  `LIASCRIPT: <div class="admonition-title" id="admon-@0">@2</div>`
+  </script>
+
 -->
 
 
 # TEST
 
-Subsubfolder ![alt text](media/ch0/CC-BY-SA-icon.svg)
+Subsubfolder 
 
-Subfolder ![alt text](media/CC-BY-SA-icon.svg)
+![alt text](media/ch0/CC-BY-SA-icon.svg)
 
-Mainfolder ![alt text](CC-BY-SA-icon.svg)
+Subfolder 
 
+![alt text](media/CC-BY-SA-icon.svg)
+
+Mainfolder 
+
+![alt text](CC-BY-SA-icon.svg)
 
 Neuer Eintrag
 
